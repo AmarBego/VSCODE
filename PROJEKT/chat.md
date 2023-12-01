@@ -1,22 +1,20 @@
-Für Ihr Projekt, das sich mit dem Datensatz "Exams.csv" beschäftigt und CRISP-DM folgt, schlage ich folgenden Ansatz vor:
+1. Datengrundlage
+    - Beschreibung der Spalten:
+        - gender: Kategorie, Geschlecht der Prüflinge.
+        - race/ethnicity: Kategorie, Rasse/Ethnizität der Prüflinge.
+        - parental level of education: Kategorie, Bildungsniveau der Eltern.
+        - lunch: Kategorie, Art des Mittagessens. 
+        - test preparation course: Kategorie, gibt es ein Vorbereitungskurs.
+        - math score: Numerisch, Mathematik-Ergebnis.
+        - reading score: Numerisch, Leseverständnis-Ergebnis.
+        - writing score: Numerisch, Schreibfähigkeit-Ergebnis.
 
-1. **Datengrundlage (20%)**
-    - **Beschreibung der Spalten:**
-        - `gender`: Kategorie, Geschlecht der Prüflinge.
-        - `race/ethnicity`: Kategorie, Rasse/Ethnizität der Prüflinge.
-        - `parental level of education`: Kategorie, Bildungsniveau der Eltern.
-        - `lunch`: Kategorie, Art des Mittagessens (könnte auf sozioökonomischen Status hinweisen).
-        - `test preparation course`: Kategorie, ob ein Vorbereitungskurs belegt wurde.
-        - `math score`: Numerisch, Mathematik-Ergebnis.
-        - `reading score`: Numerisch, Leseverständnis-Ergebnis.
-        - `writing score`: Numerisch, Schreibfähigkeit-Ergebnis.
-
-    - **Vollständige EDA (Explorative Datenanalyse):**
+    - Vollständige EDA (Explorative Datenanalyse):
         - Grafische Darstellung der Verteilungen jeder Variablen.
         - Analyse fehlender Werte.
         - Untersuchung der Beziehungen zwischen den Kategorien und den Leistungen.
 
-2. **Hypothesen (10%)**
+2. Hypothesen
     - **Beispiele für Hypothesen:**
         1. Schüler mit Vorbereitungskurs erzielen höhere Testergebnisse.
         2. Das Bildungsniveau der Eltern beeinflusst die Leistung der Schüler.
@@ -48,7 +46,6 @@ Für Ihr Projekt, das sich mit dem Datensatz "Exams.csv" beschäftigt und CRISP-
         - Achten auf Rechtschreibung und Stil.
 
 Für die Codierung und Analyse können Sie Python mit Bibliotheken wie Pandas, NumPy, Matplotlib, Seaborn und Scikit-learn verwenden. In Ihrem Jupyter-Notebook sollten alle relevanten Codeabschnitte und Visualisierungen enthalten sein, die Ihre Aussagen und Ergebnisse stützen.
-
 
 Für eine umfassende Bearbeitung Ihres Projektes mit dem Datensatz "Exams.csv" im Rahmen des CRISP-DM-Prozessmodells, würde der Prozess wie folgt aussehen:
 
@@ -143,3 +140,4 @@ Eine Zusammenfassung der Resultate und eine Diskussion über ethische Probleme d
 Die Dokumentation sollte übersichtlich gestaltet und gut strukturiert sein, unter Verwendung von Grafiken und Tabellen, um die Ergebnisse zu visualisieren und den Lesefluss zu fördern.
 
 Sie müssten den tatsächlichen Code in einem Jupyter-Notebook ausführen und die Ergebnisse für jeden Schritt dokumentieren. Für eine umfassende Analyse wären zusätzliche Details und eine feinere Anpassung der Modelle erforderlich.
+
